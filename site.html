@@ -1,36 +1,41 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Моя первая веб-страница</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мой первый сайт</title>
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
     <header>
-        <h1>Привет, мир!</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Главная</a></li>
-                <li><a href="#">Обо мне</a></li>
-                <li><a href="#">Контакты</a></li>
-            </ul>
-        </nav>
+        <h1>Добро пожаловать на мой сайт</h1>
     </header>
-
-    <main>
-        <section>
-            <h2>О себе</h2>
-            <p>Это мой контент о себе, и да, я могу писать что угодно, не нарушая Устав ВУЗа и законы РФ.</p>
-        </section>
-        <section>
-            <h2>Другой раздел</h2>
-            <p>Это еще один раздел моей веб-страницы.</p>
-        </section>
-    </main>
-
-    <footer>>
-        <p>© 2025. Аватарка.</p>
+    <nav>
+        <ul>
+            <li><a href="#about">О сайте</a></li>
+            <li><a href="#services">Услуги</a></li>
+            <li><a href="#contact">Контакты</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <h2>О сайте</h2>
+        <p>Это пример простой веб-страницы, созданной с помощью HTML и CSS.</p>
+    </section>
+    <section id="services">
+        <h2>Наши услуги</h2>
+        <ul>
+            <li>Веб-дизайн</li>
+            <li>Разработка сайтов</li>
+            <li>Поддержка и обслуживание</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Контакты</h2>
+        <p>Телефон: +7 123 456 78 90</p>
+        <p>Email: info@mysite.ru</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Мой сайт</p>
     </footer>
 </body>
 </html>
